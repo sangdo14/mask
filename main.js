@@ -7,6 +7,6 @@ window.addEventListener('scroll', ()=>{
   console.log(scroll);
   txt.style.left = 100 - scroll/5 + '%';
   innerText.style.left = 100 - scroll/5 + '%';
-  section.style.clipPath = `circle(${scroll/5}px at center)`;
+  section.style.clipPath = `circle(${scroll}px at center)`;
 });
 
